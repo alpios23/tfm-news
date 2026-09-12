@@ -1,0 +1,63 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/tfm-news
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "TFM News"
+    files:
+      - name: "homepage"
+        label: "Ana sayfa ve haberler"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "Son dakika kayan yazı", name: "ticker", widget: "text" }
+
+          - label: "Ana manşet"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Üst etiket", name: "eyebrow", widget: "string" }
+              - { label: "Büyük başlık", name: "title", widget: "string" }
+              - { label: "Renkli alt başlık", name: "subtitle", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+
+          - label: "Canlı gündem kartı"
+            name: "live"
+            widget: "object"
+            fields:
+              - { label: "Emoji", name: "emoji", widget: "string", required: false }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - { label: "Alt bilgi", name: "meta", widget: "string" }
+
+          - label: "Haberler"
+            name: "news"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - label: "Kategori"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Şok Şok Şok", value: "shock" }
+                  - { label: "Kim Kimle Sevgili?", value: "love" }
+                  - { label: "Drama", value: "drama" }
+                  - { label: "Kabile", value: "tribe" }
+              - { label: "Rozet yazısı", name: "badge", widget: "string" }
+              - { label: "Emoji", name: "emoji", widget: "string", required: false }
+              - { label: "Görsel", name: "image", widget: "image", required: false }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - { label: "Kaynak / köşe", name: "source", widget: "string" }
+              - { label: "Zaman", name: "time", widget: "string" }
+              - { label: "Büyük kart yap", name: "featured", widget: "boolean", default: false }
+
+          - label: "Rastgele skandal manşetleri"
+            name: "random_headlines"
+            widget: "list"
+            field: { label: "Manşet", name: "headline", widget: "string" }

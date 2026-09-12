@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TFM News — Şok Şok Şok!</title>
+  <meta name="description" content="Transformice topluluğu için mizahi fan haber sitesi.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="top-ticker">
+    <div class="ticker-label">SON DAKİKA</div>
+    <div class="ticker-track"><div class="ticker-text" id="tickerText">TFM News yükleniyor...</div></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">🐭</span>
+      <span><strong>TFM NEWS</strong><small>Transformice'ın en gereksiz ama en önemli haberleri</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#news">Şok Şok Şok</a>
+      <a href="#news">Kim Kimle Sevgili?</a>
+      <a href="#news">Drama</a>
+      <a href="#news">Kabile Dedikodusu</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#news">Şok Şok Şok</a><a href="#news">Kim Kimle Sevgili?</a>
+    <a href="#news">Drama</a><a href="#news">Kabile Dedikodusu</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow" id="heroEyebrow"></span>
+        <h1><span id="heroTitle"></span><br><span id="heroSubtitle"></span></h1>
+        <p id="heroDescription"></p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#news">Manşetlere dal</a>
+          <button class="ghost-btn" id="randomHeadline">Rastgele skandal üret</button>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <div class="live-dot"><span></span> CANLI GÜNDEM</div>
+        <div class="hero-card-icon" id="liveEmoji"></div>
+        <h2 id="liveTitle"></h2>
+        <p id="liveDescription"></p>
+        <div class="meta" id="liveMeta"></div>
+      </aside>
+    </section>
+
+    <section class="category-strip">
+      <button data-filter="all" class="active">🔥 Hepsi</button>
+      <button data-filter="shock">🚨 Şok Şok Şok</button>
+      <button data-filter="love">💘 Kim Kimle Sevgili?</button>
+      <button data-filter="drama">🍿 Drama</button>
+      <button data-filter="tribe">🏕️ Kabile</button>
+    </section>
+
+    <section class="news-grid" id="news"></section>
+
+    <section class="headline-generator">
+      <div>
+        <span class="eyebrow">TFM NEWS LAB</span>
+        <h2>Kendi şok manşetini üret</h2>
+        <p>Butona bas, tamamen saçma bir Transformice manşeti gelsin.</p>
+      </div>
+      <div class="generator-box">
+        <div id="generatedHeadline">🐭 Manşet hazırlanıyor...</div>
+        <button id="generateBtn">Yeni skandal üret</button>
+      </div>
+    </section>
+
+    <section class="notice">
+      <strong>⚠️ Mizah notu:</strong> TFM News bir fan/parodi sitesidir. Gerçek kişileri hedef göstermek,
+      doğrulanmamış özel hayat iddiaları yaymak veya taciz etmek için kullanılmamalıdır.
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>TFM NEWS</strong><span>Resmî Transformice sitesi değildir.</span></div>
+    <div><a href="/admin/">🔐 Admin paneli</a> • Made with 🧀</div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
