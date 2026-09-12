@@ -1,9 +1,9 @@
 {
   "ticker": "🧀 Peynir piyasaları hareketli • 🐭 Bir fare yine deliğe 0.2 saniye kala düştü • 💘 Kim kimle sevgili? Araştırıyoruz • 🚨 Kabile sohbetinde “brb” yazıp 3 saat dönmeyen oyuncu bulundu",
   "hero": {
-    "eyebrow": "TFM GÜNDEMİ • %100 MİZAH",
+    "eyebrow": "TFM GÜNDEMİ ",
     "title": "ŞOK ŞOK ŞOK!",
-    "subtitle": "Fareler konuşuyor.",
+    "subtitle": "Bu sadece bir oyun değil.",
     "description": "Transformice evreninde kim kiminle konuştu, kim peyniri çaldı, kim “afk” deyip gizlice başka odaya geçti — hepsi burada."
   },
   "live": {
@@ -14,70 +14,70 @@
   },
   "news": [
     {
-      "category": "shock",
       "badge": "ŞOK ŞOK ŞOK",
       "emoji": "🚨🐭🧀",
-      "image": "",
-      "title": "Odadaki peynir 3 saniyede kayboldu: Görgü tanıkları konuştu",
-      "description": "“Daha az önce buradaydı” diyen oyuncular olayın peşini bırakmıyor.",
-      "source": "TFM News Özel",
       "time": "5 dk önce",
-      "featured": true
+      "featured": true,
+      "title": "Odadaki peynir 3 saniyede kayboldu: Görgü tanıkları konuştu",
+      "source": "TFM News Özel",
+      "image": "",
+      "description": "“Daha az önce buradaydı” diyen oyuncular olayın peşini bırakmıyor.",
+      "category": "shock"
     },
     {
-      "category": "love",
       "badge": "KİM KİMLE SEVGİLİ?",
       "emoji": "💘🐭🐭",
-      "image": "",
-      "title": "Aynı deliğe 4 kez birlikte girdiler: Tesadüf mü, aşk mı?",
-      "description": "Topluluk ikiye bölündü. Taraflardan henüz “biz sadece arkadaşız” açıklaması gelmedi.",
-      "source": "Kalp Masası",
       "time": "12 dk önce",
-      "featured": false
+      "featured": false,
+      "title": "Aynı deliğe 4 kez birlikte girdiler: Tesadüf mü, aşk mı?",
+      "source": "Kalp Masası",
+      "image": "",
+      "description": "Topluluk ikiye bölündü. Taraflardan henüz “biz sadece arkadaşız” açıklaması gelmedi.",
+      "category": "love"
     },
     {
-      "category": "drama",
       "badge": "DRAMA ALARMI",
       "emoji": "🍿💥",
-      "image": "",
-      "title": "“First!” kavgası büyüdü, oda sessize büründü",
-      "description": "İki oyuncu aynı anda birinci olduğunu iddia etti. Replay görüntüleri hâlâ inceleniyor.",
-      "source": "Drama Servisi",
       "time": "21 dk önce",
-      "featured": false
+      "featured": false,
+      "title": "“First!” kavgası büyüdü, oda sessize büründü",
+      "source": "Drama Servisi",
+      "image": "",
+      "description": "İki oyuncu aynı anda birinci olduğunu iddia etti. Replay görüntüleri hâlâ inceleniyor.",
+      "category": "drama"
     },
     {
-      "category": "tribe",
       "badge": "KABİLE DEDİKODUSU",
       "emoji": "🏕️👀",
-      "image": "",
-      "title": "Kabile lideri “5 dk geliyorum” dedi, 2 saattir yok",
-      "description": "Üyeler yönetimi geçici olarak peynire devretmeyi tartışıyor.",
-      "source": "Kabile Masası",
       "time": "34 dk önce",
-      "featured": false
+      "featured": false,
+      "title": "Kabile lideri “5 dk geliyorum” dedi, 2 saattir yok",
+      "source": "Kabile Masası",
+      "image": "",
+      "description": "Üyeler yönetimi geçici olarak peynire devretmeyi tartışıyor.",
+      "category": "tribe"
     },
     {
-      "category": "shock",
       "badge": "ŞOK ŞOK ŞOK",
       "emoji": "🕵️‍♂️🧀",
-      "image": "",
-      "title": "Şamanın tahtası yine yanlış yere gitti: “Lag vardı” savunması",
-      "description": "Uzmanlar olayın gerçekten lag olup olmadığını tartışıyor.",
-      "source": "Teknik Olmayan Servis",
       "time": "48 dk önce",
-      "featured": false
+      "featured": false,
+      "title": "Şamanın tahtası yine yanlış yere gitti: “Lag vardı” savunması",
+      "source": "Teknik Olmayan Servis",
+      "image": "",
+      "description": "Uzmanlar olayın gerçekten lag olup olmadığını tartışıyor.",
+      "category": "shock"
     },
     {
-      "category": "love",
       "badge": "AŞK DOSYASI",
       "emoji": "🌹🧀",
-      "image": "",
-      "title": "Birbirlerine 7 kez kalp emojisi attılar: Topluluk çıldırdı",
-      "description": "TFM News olarak hiçbir şeyi doğrulamıyoruz ama başlık güzel.",
-      "source": "Kalp Masası",
       "time": "1 saat önce",
-      "featured": false
+      "featured": false,
+      "title": "Birbirlerine 7 kez kalp emojisi attılar: Topluluk çıldırdı",
+      "source": "Kalp Masası",
+      "image": "",
+      "description": "TFM News olarak hiçbir şeyi doğrulamıyoruz ama başlık güzel.",
+      "category": "love"
     }
   ],
   "random_headlines": [
