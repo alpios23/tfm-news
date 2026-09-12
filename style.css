@@ -139,7 +139,7 @@ main{max-width:1180px;margin:auto;padding:0 24px}
 .hero h1{
   margin:16px 0 18px;
   font-family:"Archivo Black",sans-serif;
-  font-size:clamp(50px,7vw,92px);
+  font-size: clamp(38px, 5vw, 64px);
   line-height:.93;
   letter-spacing:-.05em;
 }
